@@ -52,7 +52,7 @@ function Grid({coin,delay,isWatchlistPage}) {
       
       >
         {added?(
-        <BookmarkIcon sx={{"font-size":"2rem !important"}} />):(<BookmarkRoundedIcon sx={{"font-size":"2rem !important"}} className='watchlist-icon'/>)}</IconButton>
+        <BookmarkIcon sx={{"font-size":"2rem !important"}} className='watchlist-icon1' />):(<BookmarkRoundedIcon sx={{"font-size":"2rem !important"}} className='watchlist-icon'/>)}</IconButton>
         
       </div>
       {coin.price_change_percentage_24h>0?(

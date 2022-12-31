@@ -105,7 +105,7 @@ function List({coin,delay,isWatchlistPage}) {
       
       >
         {added?(
-        <BookmarkIcon/>):(<BookmarkRoundedIcon className='watchlist-icon'/>)}</IconButton>
+        <BookmarkIcon className='watchlist-icon1'/>):(<BookmarkRoundedIcon className='watchlist-icon'/>)}</IconButton>
         </td>
     </motion.tr>
     </a>

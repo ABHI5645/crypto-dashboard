@@ -1,36 +1,3 @@
-// import React, { useEffect, useState } from 'react'
-
-// import Header from '../components/Common/Header'
-// import { get100Coins } from '../functions/get100Coins';
-
-// function Watchlist() {
-//   const coins=JSON.parse(localStorage.getItem("watchlist"));
-//   const[myWatchlist,setMyWatchlist]=useState();
-//   useEffect(()=>{
-//     getData();
-
-//   },[]);
-//   const getData=async()=>{
-//     console.log("COINS>>>",coins)
-//     const allCoins=await get100Coins();
-//     console.log("ALLCOINS>>>",allCoins);
-//     setMyWatchlist(allCoins.filter((item)=>coins.includes(item.id)));
-    
-//   }
-//   console.log(myWatchlist);
-//   return (
-//     <div>
-//       <Header/>
-//       {
-//         myWatchlist.map((item)=>(
-//           <p>{item.image}</p>
-//         ))
-//       }
-//     </div>
-//   )
-// }
-
-// export default Watchlist
 
 import React, { useEffect, useState } from "react";
 import Button from "../components/Common/Button/button";
