@@ -6,9 +6,11 @@ export const getCoinPrices=(id,days,priceType)=>{
         .then((response)=>{
           console.log("PRICES>>>",response.data.prices);
           if(priceType==="market_caps"){
+            console.log(response.data.market_caps);
           return response.data.market_caps;
           }
           else if(priceType==="total_volumes"){
+            console.log(response.data.total_volumes);
             return response.data.total_volumes;
           }
           else{
